@@ -4,14 +4,19 @@ Download Fama-French factor data directly from [Kenneth R. French's data library
 
 ## Installation
 
-### Option 1: Clone the repository
+### Option 1: Install via pip
+```bash
+pip install git+https://github.com/Emilyyy-Ng/fama-french-factors.git
+```
+
+### Option 2: Clone the repository
 ```bash
 git clone https://github.com/Emilyyy-Ng/fama-french-factors.git
 cd fama-french-factors
 pip install -r requirements.txt
 ```
 
-### Option 2: Download the single file
+### Option 3: Download the single file
 ```bash
 # Download just the Python file
 curl -O https://raw.githubusercontent.com/Emilyyy-Ng/fama-french-factors/main/fama_french.py
